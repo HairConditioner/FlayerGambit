@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "2e8d9da0-580e-4e26-85dc-9a3ca30e34c3",
+    "name": "HairConditioner",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fb6a3209-8cca-3cd9-b968-16a9e4ff646f",
+    "name": "FlayerGambit",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7dba5ac6-39c1-30a6-a14e-c8ca27f331d1",
+    "name": "HairConditioner",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
