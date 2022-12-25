@@ -1,21 +1,23 @@
-[20:35:19] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[20:35:19] [Server thread/INFO]: Loading properties
-[20:35:20] [Server thread/INFO]: Default game type: SURVIVAL
-[20:35:20] [Server thread/INFO]: Generating keypair
-[20:35:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:35:20] [Server thread/INFO]: Using default channel type
-[20:35:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:35:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:35:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:35:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:35:21] [Server thread/INFO]: Preparing level "world"
-[20:35:22] [Server thread/INFO]: Loaded 488 advancements
-[20:35:22] [Server thread/INFO]: Preparing start region for level 0
-[20:35:23] [Server thread/INFO]: Preparing spawn area: 0%
-[20:35:24] [Server thread/INFO]: Preparing spawn area: 34%
-[20:35:25] [Server thread/INFO]: Preparing spawn area: 82%
-[20:35:26] [Server thread/INFO]: Done (4.768s)! For help, type "help" or "?"
-[20:45:01] [Server thread/INFO]: FlayerGambit[/0:0:0:0:0:0:0:1:63822] logged in with entity id 225 at (-282.6153164081243, 50.0, 374.82269050533483)
-[20:45:01] [Server thread/INFO]: FlayerGambit joined the game
-[20:45:30] [Server thread/INFO]: FlayerGambit lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
-[20:45:30] [Server thread/INFO]: FlayerGambit left the game
+[10:11:34] [Server thread/INFO]: Loading properties
+[10:11:34] [Server thread/INFO]: Default game type: SURVIVAL
+[10:11:34] [Server thread/INFO]: Generating keypair
+[10:11:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:11:35] [Server thread/INFO]: Using default channel type
+[10:11:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:11:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:11:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:11:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:11:37] [Server thread/INFO]: Preparing level "world"
+[10:11:37] [Server thread/INFO]: Loaded 488 advancements
+[10:11:37] [Server thread/INFO]: Preparing start region for level 0
+[10:11:39] [Server thread/INFO]: Preparing spawn area: 0%
+[10:11:40] [Server thread/INFO]: Preparing spawn area: 32%
+[10:11:41] [Server thread/INFO]: Preparing spawn area: 82%
+[10:11:41] [Server thread/INFO]: Done (4.481s)! For help, type "help" or "?"
+[10:14:26] [Server thread/INFO]: HairConditioner[/127.0.0.1:52875] logged in with entity id 238 at (-248.12361318226473, 64.0, 357.7369805208048)
+[10:14:26] [Server thread/INFO]: HairConditioner joined the game
+[10:14:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3931ms behind, skipping 78 tick(s)
+[10:14:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2937ms behind, skipping 58 tick(s)
+[10:14:57] [Server thread/INFO]: [HairConditioner: Changing to clear weather]
+[10:15:50] [Server thread/INFO]: HairConditioner lost connection: Disconnected
+[10:15:50] [Server thread/INFO]: HairConditioner left the game

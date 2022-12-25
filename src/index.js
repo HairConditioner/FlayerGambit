@@ -1,4 +1,6 @@
 import mineflayer from "mineflayer"
+import dashboard from "mineflayer-dashboard"
+
 import { viewerInit } from "./module/viewer.js"
 
 function flayerInit() {
@@ -6,6 +8,8 @@ function flayerInit() {
         host: "localhost",
         username: "FlayerGambit"
     })
+
+    bot.loadPlugin(dashboard)
 
     moduleInit(bot)
 }
