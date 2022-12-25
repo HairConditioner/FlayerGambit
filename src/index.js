@@ -1,29 +1,17 @@
-const mineflayer = require("mineflayer")
-const path = require("path")
-const fs = require("fs")
+import mineflayer from "mineflayer"
+import { viewerInit } from "./module/viewer.js"
 
-function init() {
-
+function flayerInit() {
     const bot = mineflayer.createBot({
-
         host: "localhost",
-        username: "FlayerGambit",
-    
+        username: "FlayerGambit"
     })
 
-    registerInternalModules(bot)
-
-    bot.on("end", init)
-
+    moduleInit(bot)
 }
 
-function registerInternalModules(bot) {
-
-    const modulesDir = path.join(__dirname, "module")
-    const modules = fs.readdirSync(modulesDir).filter(x => x.endsWith(".js")).map(pluginName => require(path.join(modulesDir, pluginName)))
-
-    bot.loadPlugins(modules)
-
+function moduleInit(bot) {
+    viewerInit(bot)
 }
 
-init()
+flayerInit()

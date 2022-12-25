@@ -1,19 +1,10 @@
-const viewer = require("prismarine-viewer").mineflayer
+import { mineflayer } from "prismarine-viewer"
 
-module.exports = bot => {
-
-    bot.loadPlugin(viewer)
-
+export function viewerInit(bot) {
     bot.once("spawn", () => {
-
-        /* Minecraft simulation */
-        viewer(bot, {
-    
+        mineflayer(bot, {
             port: 8080,
-            firstPerson: false
-    
+            firstPerson: true
         })
-    
     })
-
 }
